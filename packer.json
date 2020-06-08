@@ -136,6 +136,7 @@
                 "sudo wget https://raw.githubusercontent.com/xero/figlet-fonts/master/Bloody.flf -O /usr/share/figlet/Bloody.flf",
                 "/bin/su -l op -c 'curl https://raw.githubusercontent.com/mitsuhiko/pipsi/master/get-pipsi.py | python3'",
                 "git clone https://github.com/navisecdelta/EmailGen.git /home/op/recon/emailgen",
+                "git clone https://github.com/VundleVim/Vundle.vim.git /home/op/.vim/bundle/Vundle.vim",
                 "git clone https://github.com/s0md3v/Photon.git /home/op/recon/photon && cd /home/op/recon/photon && python3 -m pip install requirements.txt",
                 "git clone https://github.com/s0md3v/Arjun.git /home/op/recon/arjun",
                 "git clone https://github.com/blark/aiodnsbrute.git /home/op/recon/aiodnsbrute",
