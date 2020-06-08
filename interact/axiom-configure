@@ -113,7 +113,7 @@ fi
 
 if [ ! -d ~/.axiom ]
 then
-    git clone https://github.com/pry0cc/axiom ~/.axiom
+    git clone https://github.com/iNoSec2/axiom_custom.git ~/.axiom
 else
     cd ~/.axiom && git pull
 fi
