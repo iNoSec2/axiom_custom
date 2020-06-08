@@ -64,6 +64,11 @@
         },
         {
             "type":"file",
+            "source":"./configs/aliases.zsh",
+            "destination":"/home/op/.oh-my-zsh/custom/"
+        },
+        {
+            "type":"file",
             "source":"./configs/add-path",
             "destination":"/home/op/bin/add-path"
         },
@@ -193,7 +198,8 @@
                 "touch /home/op/.profile",
                 "touch /home/op/.z",
                 "chown -R op:users /home/op",
-                "sudo chmod +x /etc/update-motd.d/00-header"
+                "sudo chmod +x /etc/update-motd.d/00-header",
+                "git clone https://github.com/zsh-users/zsh-autosuggestions /home/op/.oh-my-zsh/custom/"
             ]
         },
         {

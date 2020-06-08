@@ -1,8 +1,8 @@
 export TERM="xterm-256color"
 export ZSH=/home/op/.oh-my-zsh
 
-ZSH_THEME="mrtazz"
-plugins=(dircycle github z autojump rails archlinux zsh-navigation-tools docker vagrant cp ruby)
+ZSH_THEME="clean"
+plugins=(dircycle github z autojump rails archlinux zsh-autosuggestions zsh-navigation-tools docker vagrant cp ruby)
 
 source $ZSH/oh-my-zsh.sh
 source ~/.profile
