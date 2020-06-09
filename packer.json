@@ -210,8 +210,7 @@
         {
             "type":"shell",
             "inline": [
-                "chown -R op:users /home/op",
-                "git clone https://github.com/zsh-users/zsh-autosuggestions /home/op/.oh-my-zsh/custom/"
+                "chown -R op:users /home/op"
             ]
         }
     ]
