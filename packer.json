@@ -216,6 +216,11 @@
             "inline": [
                 "chown -R op:users /home/op"
             ]
+        },
+	{
+            "type":"file",
+            "source":"./configs/.vimrc",
+            "destination":"/home/op/.vimrc"
         }
     ]
 }
